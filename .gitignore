@@ -1,0 +1,10 @@
+# dependencies
+node_modules/
+
+# production bundles
+build/
+public/js/app.js
+
+# environment and other files
+.env
+package-lock.json

@@ -1,0 +1,53 @@
+{
+  "name": "react-typescript-express",
+  "version": "1.0.0",
+  "description": "React,Express,Typescript",
+  "main": "build/server.js",
+  "scripts": {
+    "watch:build": "webpack -w",
+    "watch:server": "nodemon build/server.js",
+    "dev": "npm-run-all --parallel watch:*",
+    "start": "node build/server.js"
+  },
+  "keywords": [],
+  "author": "themrzlyv",
+  "license": "MIT",
+  "dependencies": {
+    "@types/express": "^4.17.11",
+    "@types/mongoose": "^5.10.4",
+    "@types/react": "^17.0.2",
+    "@types/react-dom": "^17.0.1",
+    "@types/react-redux": "^7.1.16",
+    "@types/react-router-dom": "^5.1.7",
+    "@types/redux": "^3.6.0",
+    "@types/redux-devtools-extension": "^2.13.2",
+    "@types/redux-thunk": "^2.1.0",
+    "bootstrap": "^4.6.0",
+    "css-loader": "^5.1.1",
+    "dotenv-webpack": "^7.0.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.3",
+    "node-sass": "^5.0.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.2.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-redux": "^7.2.3",
+    "react-router-dom": "^5.2.0",
+    "react-toast-notifications": "^2.4.3",
+    "redux": "^4.0.5",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "sass-loader": "^11.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.17",
+    "typescript": "^4.2.3",
+    "webpack": "^5.24.3",
+    "webpack-cli": "^4.5.0",
+    "webpack-node-externals": "^2.5.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7",
+    "npm-run-all": "^4.1.5"
+  }
+}
